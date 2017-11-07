@@ -56,7 +56,10 @@ except :
 from microRESTCli import MicroRESTCli
 
 def progressCallback(microWebCli, progressSize, totalSize) :
-  print('%d bytes of %d downloaded' % (progressSize, totalSize))
+  if totalSize :
+    print('Progress: %d bytes of %d downloaded...' % (progressSize, totalSize))
+  else :
+    print('Progress: %d bytes downloaded...' % progressSize)
 
 rCli        = MicroRESTCli('https://my-web-api.io/rest', token='jIud87jzIsUzj3=')
 filename    = '/flash/invoice.pdf'
