@@ -75,6 +75,6 @@ print('File of type "%s" saved to "%s"' % (contentType, filename))
 | Converts json datetime to timestamp | `MicroRESTCli.JsonDT2Timestamp(jsonDT)` |
 
 
-### By JC`zic ;')
+### By JC`zic for [HC²](https://www.hc2.fr) ;')
 
 *Keep it simple, stupid* :+1:
