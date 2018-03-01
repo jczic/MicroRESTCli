@@ -1,8 +1,6 @@
-# MicroRESTCli
-
 ![HC²](hc2.png "HC²")
 
-### A micro HTTP JSON REST Web client based on [MicroWebCli](http://microwebcli.hc2.fr) for MicroPython (used on ESP32 and [Pycom](http://www.pycom.io) modules)
+## A micro HTTP JSON REST Web client based on [MicroWebCli](http://microwebcli.hc2.fr) for MicroPython (used on ESP32 and [Pycom](http://www.pycom.io) modules)
 
 Very easy to integrate and very light with 2 files only :
 - `"microRESTCli.py"` - The REST client
