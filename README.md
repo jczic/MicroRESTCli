@@ -6,7 +6,7 @@
 
 Very easy to integrate and very light with 2 files only :
 - `"microRESTCli.py"` - The REST client
-- `"microWebCli.py"` - The base Web client ([available here](https://github.com/jczic/MicroWebCli))
+- `"microWebCli.py"` - The base Web client ([available here](http://microwebcli.hc2.fr))
 
 Simple but effective :
 - Use it to requesting fastly HTTP JSON REST endpoints (Web APIs)
